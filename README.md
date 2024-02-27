@@ -5,7 +5,7 @@ Servidor express con nginx para transferencia de archivos a través del protocol
 
 ### Arranque del Servidor
 
-´´´
+```
 # Test file
 nginx -c /full-path/nginx.conf -t 
 
@@ -14,7 +14,7 @@ nginx -c /full-path/nginx.conf
 
 # Stop Server
 nginx -c /full-path/nginx.conf -s stop
-´´´
+```
 
 ### Probando funcionalidad de subida de archivos
 
